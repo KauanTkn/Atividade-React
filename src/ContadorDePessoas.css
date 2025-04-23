@@ -1,0 +1,29 @@
+#contador-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contador-box {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .icone {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .contador {
+    display: block;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .increment, .decrement, .reset {
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+  }
+  
