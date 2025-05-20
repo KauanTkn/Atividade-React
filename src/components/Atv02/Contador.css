@@ -1,0 +1,61 @@
+.container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.total-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.painel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao-mais {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.botao-menos {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.box-valor {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    min-width: 30px;
+}
